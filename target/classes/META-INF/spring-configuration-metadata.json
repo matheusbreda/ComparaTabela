@@ -23,12 +23,6 @@
       "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
       "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
       "sourceMethod": "public org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.Xa getXa() "
-    },
-    {
-      "name": "sqlite.datasource.xa",
-      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
-      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
-      "sourceMethod": "public org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.Xa getXa() "
     }
   ],
   "properties": [
@@ -141,71 +135,6 @@
       "name": "spring.datasource.xa.properties",
       "type": "java.util.Map<java.lang.String,java.lang.String>",
       "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa"
-    },
-    {
-      "name": "spring.jps.properties.hibernate.use_sql_comments",
-      "type": "java.lang.String",
-      "description": "A description for 'spring.jps.properties.hibernate.use_sql_comments'"
-    },
-    {
-      "name": "sqlite.datasource.driver-class-name",
-      "type": "java.lang.String",
-      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
-    },
-    {
-      "name": "sqlite.datasource.embedded-database-connection",
-      "type": "org.springframework.boot.jdbc.EmbeddedDatabaseConnection",
-      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
-    },
-    {
-      "name": "sqlite.datasource.generate-unique-name",
-      "type": "java.lang.Boolean",
-      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
-    },
-    {
-      "name": "sqlite.datasource.jndi-name",
-      "type": "java.lang.String",
-      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
-    },
-    {
-      "name": "sqlite.datasource.name",
-      "type": "java.lang.String",
-      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
-    },
-    {
-      "name": "sqlite.datasource.password",
-      "type": "java.lang.String",
-      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
-    },
-    {
-      "name": "sqlite.datasource.type",
-      "type": "java.lang.Class<? extends javax.sql.DataSource>",
-      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
-    },
-    {
-      "name": "sqlite.datasource.url",
-      "type": "java.lang.String",
-      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
-    },
-    {
-      "name": "sqlite.datasource.username",
-      "type": "java.lang.String",
-      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
-    },
-    {
-      "name": "sqlite.datasource.xa.data-source-class-name",
-      "type": "java.lang.String",
-      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa"
-    },
-    {
-      "name": "sqlite.datasource.xa.properties",
-      "type": "java.util.Map<java.lang.String,java.lang.String>",
-      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa"
-    },
-    {
-      "name": "url.bitrix",
-      "type": "java.lang.String",
-      "description": "A description for 'url.bitrix'"
     }
   ],
   "hints": []
